@@ -881,8 +881,8 @@ public class AddressBook {
     private static HashMap<String, String> makePersonFromData(String name, String phone, String email) {
         final HashMap<String, String> person = new HashMap<>();
         person.put(PERSON_PROPERTY_NAME, name);
-        person.put(PERSON_PROPERTY_PHONE, name);
-        person.put(PERSON_PROPERTY_EMAIL, name);
+        person.put(PERSON_PROPERTY_PHONE, phone);
+        person.put(PERSON_PROPERTY_EMAIL, email);
         return person;
     }
 
