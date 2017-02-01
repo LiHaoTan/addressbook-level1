@@ -846,7 +846,7 @@ public class AddressBook {
      * @param person whose name you want
      */
     private static String getNameFromPerson(HashMap<PersonProperty, String> person) {
-    	return person.get(PersonProperty.NAME);
+        return person.get(PersonProperty.NAME);
     }
 
     /**
@@ -855,7 +855,7 @@ public class AddressBook {
      * @param person whose phone number you want
      */
     private static String getPhoneFromPerson(HashMap<PersonProperty, String> person) {
-    	return person.get(PersonProperty.PHONE);
+        return person.get(PersonProperty.PHONE);
     }
 
     /**
@@ -864,7 +864,7 @@ public class AddressBook {
      * @param person whose email you want
      */
     private static String getEmailFromPerson(HashMap<PersonProperty, String> person) {
-    	return person.get(PersonProperty.EMAIL);
+        return person.get(PersonProperty.EMAIL);
     }
 
     /**
